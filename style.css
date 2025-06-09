@@ -59,8 +59,6 @@ h2 {
   border: 2px solid magenta;
 }
 
-.white-bg__text .second-para {
-}
 h2 {
   font-size: 36px;
 }
@@ -81,20 +79,11 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
-.black-bg-container {
-}
-.brown-bg-container {
-}
-img {
-}
+
 .image-one {
   margin-left: 3em;
 }
-.image-two {
-}
-.image-one,
-.image-two {
-}
+
 .brown-bg__text {
   margin-left: 3em;
 }
