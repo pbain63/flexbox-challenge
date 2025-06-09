@@ -47,7 +47,7 @@ h2 {
   margin: 0 auto;
   max-width: 1128px;
   /* border: 2px solid red; */
-  padding: 3em 0;
+  padding: 3rem 0;
 }
 .white-bg-container h2 {
   text-align: center;
@@ -55,7 +55,7 @@ h2 {
 }
 .white-bg__text {
   display: flex;
-  gap: 3em;
+  gap: 3rem;
   /* border: 2px solid magenta; */
 }
 .first-para,
@@ -83,18 +83,18 @@ h2 {
   max-width: 1128px;
   margin: 0 auto;
   /* border: 2px solid yellow; */
-  padding: 3em 3em 3em 0;
+  padding: 3rem 3rem 3rem 0;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
 .image-one {
-  margin-left: 3em;
+  margin-left: 3rem;
 }
 
 .brown-bg__text {
-  margin-left: 3em;
+  margin-left: 3rem;
 }
 .brown-bg__text h2,
 .black-bg__text h2 {
