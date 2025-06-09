@@ -36,28 +36,117 @@ body {
 h1 {
   margin-top: 0;
   font-size: 60px;
+  color: #824936;
 }
 
 h1,
 h2 {
   font-family: "Playfair", serif;
   font-weight: 900;
-  color: #824936;
 }
 
 .white-bg-container {
   margin: 0 auto;
   max-width: 1128px;
   border: 2px solid red;
+  padding: 3em 0;
 }
 .white-bg-container h2 {
   text-align: center;
+  color: #824936;
 }
 .white-bg__text {
   display: flex;
-  gap: 2em;
-}
+  gap: 3em;
+  border: 2px solid magenta;
+  /* display: grid; */
 
+  /* grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); */
+}
+/* .first-para,
+.second-para {
+  border: 2px solid greenyellow;
+
+  width: 50%;
+} 
+*/
+.white-bg__text .second-para {
+  /* margin-left: 3em; */
+  /* padding-left: 3em; */
+}
 h2 {
   font-size: 36px;
+}
+.colored-bg {
+  /* display: grid; */
+  /* grid-template-rows: repeat(2, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); */
+}
+.black-bg {
+  background-color: #222c2a;
+  color: #fff;
+  border: 2px solid red;
+}
+.black-bg-container,
+.brown-bg-container {
+  max-width: 1128px;
+  margin: 0 auto;
+  border: 2px solid yellow;
+  padding: 3em 3em 3em 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+
+  /* justify-content: space-between; */
+  /* gap: 3em; */
+}
+.black-bg-container {
+  /* padding: 3em 3em 3em 0; */
+  /* overflow: hidden; */
+}
+.brown-bg-container {
+  /* padding: 3em 0 3em 0; */
+}
+img {
+  /* max-width: 100%; */
+}
+.image-one {
+  margin-left: 3em;
+}
+.image-two {
+}
+.image-one,
+.image-two {
+  /* width: 100%; */
+  /* justify-self: end; */
+}
+.brown-bg__text {
+  /* padding-left: 3em; */
+  margin-left: 3em;
+}
+.brown-bg__text h2,
+.black-bg__text h2 {
+  margin-top: 0;
+  /* margin-right: 2em; */
+  /* margin-right: 12em; */
+  /* padding-right: 12rem; */
+  /* justify-self: end; */
+}
+
+.first-para,
+.second-para,
+.black-bg__text,
+.image-one,
+.brown-bg__text,
+.image-two {
+  /* padding-right: 3em; */
+  /* margin-right: 12em; */
+  border: 2px solid greenyellow;
+  width: 100%;
+}
+
+.brown-bg {
+  background-color: #824936;
+  color: #fff;
+  border: 2px solid red;
 }
